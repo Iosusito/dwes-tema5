@@ -127,7 +127,7 @@ if ($_POST) {
 
 <form method="post" enctype="multipart/form-data">
     <p>
-        <label for="nombre">Nombre de usuario</label>
+        <label for="nombre">Nombre</label>
         <input type="text" name="nombre" id="nombre" 
         value="<?php echo isset($nombre) ? $nombre : ""; ?>">
     </p>
