@@ -258,9 +258,5 @@ function deleteImageFromDataBase(int $id): bool|null
     $sentencia->close();
     $mysqli->close();
 
-    if ($resultado) {
-        //borrar de la carpeta
-    }
-
     return $resultado;
 }
